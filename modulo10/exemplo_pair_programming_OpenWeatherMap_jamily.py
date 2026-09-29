@@ -1,3 +1,26 @@
+'''
+==============================================================================
+ AULA PRÁTICA: CONSUMO DE API E PAIR PROGRAMMING (PYTHON)
+==============================================================================
+ Pré-requisito no terminal:
+ pip install requests
+
+ 👥 DIVISÃO DOS PAPÉIS E REGRAS (Pair Programming):
+ 🧑‍💻 Driver (Piloto): 
+    - Fica no teclado[cite: 1, 2].
+    - Escreve a sintaxe Python, declara as variáveis em snake_case e executa o código[cite: 1, 2].
+ 
+ 🧭 Navigator (Navegador): 
+    - Não toca no teclado[cite: 1, 2].
+    - Analisa a estrutura do JSON, orienta a lógica e confere se as variáveis usam snake_case[cite: 1, 2].
+ 
+ ⏱️ Timer: 
+    - Troca obrigatória de papéis a cada 15-20 minutos[cite: 1, 2].
+==============================================================================
+
+
+'''
+
 import requests
 
 def consultar_clima():
